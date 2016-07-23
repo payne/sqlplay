@@ -6,6 +6,7 @@
 1. `./gradlew bootRun` works
 1. http://localhost:8080 goes to the HAL Browser
 1. http://localhost:8080/h2-console goes to the H2 database console; just click login.
+   1. Be sure to use the JDBC URL jdbc:h2:mem:testdb
    1. Copy from http://www.w3schools.com/sql/sql_create_table.asp (which has a nice try it yourself feature!)
 ~~~~~
 CREATE TABLE Persons
