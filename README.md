@@ -25,7 +25,8 @@ insert into persons values (1,'Payne','Matt','72nd & Dodge','Omaha');
 ~~~~~
 select * from persons;
 ~~~~~  
-
+1. Notice that http://localhost:8080/member?id=42 works because of MemberController
+1. Also notice that one can enter member into the HAL browser's search box.  Since I am not yet, doing things properly (still just faffing about half assed learning) it's not HAL compliant.
 
 
 
