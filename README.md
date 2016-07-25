@@ -28,8 +28,13 @@ select * from persons;
 ~~~~~  
 1. Notice that http://localhost:8080/member?id=42 works because of MemberController
 1. Also notice that one can enter member into the HAL browser's search box.  Since I am not yet, doing things properly (still just faffing about half assed learning) it's not HAL compliant.
-
+1. Into Eclipse!
+  1. `./gradlew eclipse`
+  1. Import the project into eclipse
+  1. /Users/mpayne/Study2/Java/Spring/SQL/sqlplay is where the project is on Matt's laptop.  And Matt uses the neon distribution of eclipse for this.
 
 
 ## Background
-1. http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
+1. It would be great to be able to demo in JPA and JDBC all of the concepts covered by http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
+
+
