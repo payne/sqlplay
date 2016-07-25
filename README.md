@@ -36,5 +36,9 @@ select * from persons;
 
 ## Background
 1. It would be great to be able to demo in JPA and JDBC all of the concepts covered by http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
-
+1. Spring Boot 101 (Part 3) database access
+  1. https://www.youtube.com/watch?v=C3bNEz9opuU
+  1. https://github.com/dangeabunea/RomanianCoderExamples
+  
+  
 
