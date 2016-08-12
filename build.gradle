@@ -34,6 +34,9 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('com.h2database:h2')
+	// from: http://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html
+	//providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	compile('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 

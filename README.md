@@ -4,7 +4,8 @@
 1. http://start.spring.io/
    1. docs/screenshots/ shows the options I choose
 1. `./gradlew bootRun` works
-1. http://localhost:8080 goes to the HAL Browser
+1. http://localhost:8080/index.html serves src/main/resources/static/index.html 
+1. http://localhost:8080 or http://localhost:8080/browser/index.html goes to the HAL Browser
 1. http://localhost:8080/h2-console goes to the H2 database console; just click login.
    1. Be sure to use the JDBC URL jdbc:h2:mem:testdb
    1. Copy from http://www.w3schools.com/sql/sql_create_table.asp (which has a nice try it yourself feature!)
@@ -40,5 +41,7 @@ select * from persons;
   1. https://www.youtube.com/watch?v=C3bNEz9opuU
   1. https://github.com/dangeabunea/RomanianCoderExamples
   
-  
+## Things to try
+1. http://www.leveluplunch.com/java/tutorials/003-getting-started-with-spring-boot/
+1. Get the stuff from https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-web-jsp working
 
