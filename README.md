@@ -5,6 +5,7 @@
    1. docs/screenshots/ shows the options I choose
 1. `./gradlew bootRun` works
 1. http://localhost:8080/greeting goes to thymeleaf example
+1. http://localhost:8080/someOtherUrl goes to the FooServlet.
 1. http://localhost:8080/index.html serves src/main/resources/static/index.html 
 1. http://localhost:8080/browser/index.html goes to the HAL Browser
 1. http://localhost:8080/h2-console goes to the H2 database console; just click login.
