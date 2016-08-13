@@ -47,5 +47,5 @@ select * from persons;
 1. http://www.leveluplunch.com/java/tutorials/003-getting-started-with-spring-boot/
 1. Get the stuff from https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-web-jsp working
 1. http://stackoverflow.com/questions/20915528/how-can-i-register-a-secondary-servlet-with-spring-boot 
-
+1. Mix plain JSP with Thymleaf: https://github.com/Spring-Squad/jsp-thymeleaf-config
 

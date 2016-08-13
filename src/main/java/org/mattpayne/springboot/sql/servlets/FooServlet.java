@@ -19,7 +19,7 @@ public class FooServlet extends HttpServlet {
 
 	private static void square(PrintWriter out) {
 		for (int x = 0; x < 5; x++) {
-			for (int y = 0; y < 5; y++) {
+			for (int y = 0; y < 10; y++) {
 				// TODO: Use font awesome!
 				out.print("*");
 			}
