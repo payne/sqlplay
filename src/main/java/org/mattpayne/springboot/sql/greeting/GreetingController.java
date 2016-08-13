@@ -1,4 +1,4 @@
-package org.mattpayne.springboot.sql;
+package org.mattpayne.springboot.sql.greeting;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
