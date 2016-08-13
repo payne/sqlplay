@@ -1,3 +1,25 @@
 <html>
 <h1>Hello!</h1>
+
+<p>
+<a href="https://github.com/payne/sqlplay" target="_blank">https://github.com/payne/sqlplay</a>
+is an experiment in learning spring boot.
+</p>
+
+<p>
+<ol>
+<li><a target="_blank" href="http://localhost:8080/index.html">http://localhost:8080/index.html</a> serves src/main/resources/static/index.html</li>
+<li><a target="_blank" href="http://localhost:8080/greeting">http://localhost:8080/greeting</a> goes to thymeleaf example with simple form processing!</li>
+<li><a target="_blank" href="http://localhost:8080/someOtherUrl">http://localhost:8080/someOtherUrl</a> goes to the FooServlet. It's a plain HttpServlet.</li>
+<li><a target="_blank" href="http://localhost:8080/member?id=42">http://localhost:8080/member?id=42</a> works because of MemberController</li>
+<li><a target="_blank" href="http://localhost:8080/browser/index.html">http://localhost:8080/browser/index.html</a> goes to the HAL Browser</li>
+<li><a target="_blank" href="http://localhost:8080/h2-console">http://localhost:8080/h2-console</a> goes to the H2 database console; just click login.
+<ul>
+   <li> Be sure to use the JDBC URL jdbc:h2:mem:testdb</li>
+   <li>This in RAM database is populated by src/main/resources/schema.sql which loads in some CSV files in the same directory.</li>
+   <li>You can use a JDBC URL that points to disk if you like.</li>
+</ul>
+</li>
+</ol>
+</p>
 </html>
