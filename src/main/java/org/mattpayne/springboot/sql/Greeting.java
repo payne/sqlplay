@@ -4,6 +4,7 @@ public class Greeting {
 
     private long id;
     private String content;
+	private String extra;
 
     public long getId() {
         return id;
@@ -20,5 +21,13 @@ public class Greeting {
     public void setContent(String content) {
         this.content = content;
     }
+
+	public void setExtra(String string) {
+		this.extra = string;
+	}
+
+	public String getExtra() {
+		return extra;
+	}
 
 }
