@@ -29,9 +29,9 @@ public class GreetingController {
 
     @RequestMapping(value="/greeting", method=RequestMethod.POST)
     public String greetingSubmit(@ModelAttribute Greeting greeting, Model model) {
-    	
-    	BooksDao dao = new BooksDao();
+    	BooksDao dao = new BooksDao(jdbcTemplate);
     	List<Book> books = dao.findBooks();
+    	System.out.println("\n\n\n"+books+"\n\n");
     	greeting.setExtra("this is extra!");
         model.addAttribute("greeting", greeting);
         return "result";
