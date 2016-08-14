@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class FooServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public static void main(String[] args) {
+	public static void change_to_main_for_demo(String[] args) {
 		System.out.println("Hello!  I am a servlet and an applciation.");
 		PrintWriter out = new PrintWriter(System.out);
 		square(out);
