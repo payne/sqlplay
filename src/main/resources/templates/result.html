@@ -9,6 +9,13 @@
     <p th:text="'id: ' + ${greeting.id}" />
     <p th:text="'content: ' + ${greeting.content}" />
     <p th:text="'Extra: ' + ${greeting.extra}"/>
+    
+    <ul>
+    <th:block th:object="${greeting}">
+       <li th:each="book : *{books}" th:text="${book}">blah blah...</li>
+    </th:block>
+    </ul>
+    
     <a href="/greeting">Submit another message</a>
 </body>
 </html>

@@ -1,10 +1,15 @@
 package org.mattpayne.springboot.sql.greeting;
 
+import java.util.List;
+
+import org.mattpayne.springboot.sql.model.Book;
+
 public class Greeting {
 
     private long id;
     private String content;
 	private String extra;
+	private List<Book> books;
 
     public long getId() {
         return id;
@@ -28,6 +33,14 @@ public class Greeting {
 
 	public String getExtra() {
 		return extra;
+	}
+
+	public void setBooks(List<Book> books) {
+		this.books = books;
+	}
+
+	public List<Book> getBooks() {
+		return books;
 	}
 
 }

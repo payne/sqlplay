@@ -32,6 +32,7 @@ public class GreetingController {
     	BooksDao dao = new BooksDao(jdbcTemplate);
     	List<Book> books = dao.findBooks();
     	System.out.println("\n\n\n"+books+"\n\n");
+    	greeting.setBooks(books);
     	greeting.setExtra("this is extra!");
         model.addAttribute("greeting", greeting);
         return "result";
